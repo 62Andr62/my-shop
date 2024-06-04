@@ -1,0 +1,37 @@
+<template>
+    <div>
+        <nav class="header">
+            <ul class="headers">
+              <li class="logo">
+                <router-link to="/">
+                  <img src="@/assets/icity.png" width="35px" class="logotaip" alt="logo">
+                </router-link>
+              </li>
+              <router-link v-for="nav in navigat" :key="nav.id" :to="`/${nav.path}`" class="src_iphone">
+                   {{ nav.name }}
+              </router-link>
+            </ul>
+        </nav>
+        <div>
+          <button class='v-cart'>🛒</button>
+        </div>
+    </div>
+    </template>
+
+    <script>
+/*Изменить пагинацию
+  изменить хедер*/
+
+export default {
+  data: function() {
+    return {
+      navigat: [
+        { id: 1 , name: 'Iphone', path: 'Iphone'},
+        { id: 2 ,name: 'Ipad', path: 'Ipad/IpadPro'},
+        { id: 3 ,name: 'Macbook', path: 'Macbook/Pro'},
+        { id: 4 ,name: 'Vision Pro', path: 'VisionPro'},
+        ]
+    }
+  },
+}
+</script>
