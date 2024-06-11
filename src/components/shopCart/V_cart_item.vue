@@ -8,6 +8,7 @@
       </button>
         <p> {{ v_element.name }} </p>
         <b> {{ v_element.price }} </b>
+        <p> Кол-во: {{ v_element.quantity }} </p>
       </div>
     </div>
   </template>
@@ -33,6 +34,9 @@
     closeItemCart() {
       this.$emit('closeItemCart', this.v_element)
     }
+  },
+  mounted() {
+    this.$set(this.v_element , 'quantity' , 1)
   }
 }
   </script>

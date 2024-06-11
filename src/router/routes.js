@@ -1,17 +1,11 @@
 import IphoneItem from '@/components/electronics/IphoneItem.vue'
-import HelloWorld from '../components/HelloWorld.vue'
-import SmsCreate from '../components/SmsCreate.vue'
+import HomePage from '@/components/HomePage'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HelloWorld
-  },
-  {
-    path: '/sms/create',
-    name: 'SmsCreate',
-    component: SmsCreate
+    name: 'HomePage',
+    component: HomePage
   },
   {
     path: '/iphone',

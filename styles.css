@@ -68,7 +68,6 @@ font-size: 26px;
     border-radius: none;
   }
   .v-cart {
-    position: absolute;
     top: 3px;
     left: 1180px;
     width: 50px;
@@ -76,6 +75,7 @@ font-size: 26px;
     background-color: rgb(30, 185, 196);
     border-radius: 10px;
     z-index: 10;
+    position: fixed;
     
   }
   .product_data_name {
@@ -195,6 +195,10 @@ font-size: 26px;
     z-index: 10;
     background-color: rgb(3, 0, 0)
   }
+  .HomePage {
+    position: relative;
+    top: 150px;
+  }
   .cart_window {
     position: fixed;
     top: 0;
@@ -203,6 +207,7 @@ font-size: 26px;
     width: 320px;
     height: 100%;
     z-index: 10;
+    overflow: scroll;
     animation: Wrapper 1s;
   }
   @keyframes Wrapper{
@@ -241,7 +246,7 @@ font-size: 26px;
   .footerCart {
     position: relative;
     border-bottom: solid 1px;
-    top: 290px;
+    top: 460px;
   }
   .footerCart b {
     position: relative;
@@ -302,9 +307,9 @@ font-size: 26px;
     opacity: 0.6;
   }
   .placing_an_order {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
+    position: relative;
+    top: 360px;
+    left: 20px;
     padding: 10px;
     width: 260px;
     border: none;
@@ -320,3 +325,21 @@ font-size: 26px;
       background-color: rgb(60, 172, 174);
     }
   }
+  .total {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+  }
+  .disabledBtn {
+    background-color: rgb(182, 175, 175);
+    &:hover {
+      background-color: rgb(182, 175, 175);
+    }
+  }
+  .empty_cart {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+ }

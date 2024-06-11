@@ -12,13 +12,16 @@
               </router-link>
             </ul>
         </nav>
-        <div>
-          <button class='v-cart'>🛒</button>
+        <div >
+          <button
+          @click="openModalCart"
+          class='v-cart'>🛒</button>
         </div>
     </div>
     </template>
 
     <script>
+    import { mapMutations , mapGetters } from 'vuex';
 /*Изменить пагинацию
   изменить хедер*/
 
@@ -33,5 +36,21 @@ export default {
         ]
     }
   },
+props: {
+},
+methods: {
+  ...mapMutations([
+    'OPEN_WINDOW_CART'
+  ]),
+  openModalCart() {
+    this.OPEN_WINDOW_CART()
+  }
+},
+computed: {
+  ...mapGetters([
+    'CART_CLOSE'
+  ]),
+
+}
 }
 </script>
