@@ -2,169 +2,169 @@
     "products": [
         {
             "image": "1.jpg",
-            "name": "Apple iPhone 11 64Gb Black (Черный)",
-            "price": 29.990,
+            "name": "Apple iPhone 13 64Gb Pink (Розовый)",
+            "price": 29.900,
             "avialable": 55,
             "id": 1
         },
         {
             "image": "2.jpg",
-            "name": "Apple iPhone 13 128Gb Black (Черный)",
-            "price": 49.999,
+            "name": "Apple iPhone 13 128Gb Grey (Металлик)",
+            "price": 49.900,
             "avialable": 0,
             "id": 2
         },
         {
             "image": "3.jpg",
-            "name": "Apple iPhone 14 256Gb Blue (Синий)",
-            "price": 79.999,
+            "name": "Apple iPhone 14 Pro 256Gb Grey (Металлик)",
+            "price": 79.900,
             "avialable": 12,
             "id": 3
         },
         {
             "image": "4.jpg",
-            "name": "Apple iPhone 15 512Gb White (Белый)",
-            "price": 119.999,
+            "name": "Apple iPhone 13 512Gb Black (Черный)",
+            "price": 119.900,
             "avialable": 54,
             "id": 4
         },
         {
             "image": "5.jpg",
-            "name": "Apple iPhone 12 512Gb White (Белый)",
-            "price": 79.999,
+            "name": "Apple iPhone 12 512Gb Black (Черный)",
+            "price": 79.900,
             "avialable": 0,
             "id": 5
         },
         {
             "image": "6.jpg",
-            "name": "Apple iPhone 12 128Gb White (Белый)",
-            "price": 69.999,
+            "name": "Apple iPhone 13 128Gb Pink (Розовый)",
+            "price": 69.900,
             "avialable": 0,
             "id": 6
         }, 
         {
             "image": "7.jpg",
-            "name": "Apple iPhone 15 512Gb Blue (Синий)",
-            "price": 119.999,
+            "name": "Apple iPhone 13 512Gb Grey (Серый)",
+            "price": 119.900,
             "avialable": 4,
             "id": 7
         },
         {
             "image": "8.jpg",
-            "name": "Apple iPhone 11 512Gb Blue (Синий)",
-            "price": 49.999,
+            "name": "Apple iPhone 14 Pro 512Gb Grey (Металлик)",
+            "price": 49.900,
             "avialable": 0,
             "id": 8
         },
         {
             "image": "9.jpg",
-            "name": "Apple iPhone 15 512Gb Red (Красный)",
-            "price": 99.999,
+            "name": "Apple iPhone 13 512Gb Black (Черный)",
+            "price": 99.900,
             "avialable": 11,
             "id": 9
         },
         {
             "image": "10.jpg",
-            "name": "Apple iPhone 15 Pro Max 512Gb Red (Красный)",
-            "price": 129.999,
+            "name": "Apple iPhone 12 512Gb Black (Черный)",
+            "price": 129.900,
             "avialable": 32,
             "id": 10
         },
         {
             "image": "11.jpg",
-            "name": "Apple iPhone 12 512Gb Pro Max Yellow (Желтый)",
-            "price": 89.999,
+            "name": "Apple iPhone 13 512Gb Grey (Серый)",
+            "price": 89.900,
             "avialable": 1,
             "id": 11
         },
         {
             "image": "12.jpg",
-            "name": "Apple iPhone 15 Pro Max 1Tb Red (Красный)",
-            "price": 139.999,
+            "name": "Apple iPhone 12 1Tb Black (Черный)",
+            "price": 139.900,
             "avialable": 19,
             "id": 12
         },
          {
             "image": "1.jpg",
-            "name": "Apple iPhone 11 64Gb Black (Черный)",
-            "price": 19.999,
+            "name": "Apple iPhone 13 64Gb Pink (Розовый)",
+            "price": 19.900,
             "avialable": 0,
             "id": 60
         },
         {
             "image": "2.jpg",
             "name": "Apple iPhone 13 128Gb Black (Черный)",
-            "price": 999,
+            "price": 23.900,
             "avialable": 0,
             "id": 13
         },
         {
             "image": "3.jpg",
-            "name": "Apple iPhone 14 256Gb Blue (Синий)",
-            "price": 79.999,
+            "name": "Apple iPhone 14 Pro 256Gb Grey (Металлик)",
+            "price": 79.900,
             "avialable": 12,
             "id": 14
         },
         {
             "image": "4.jpg",
-            "name": "Apple iPhone 15 512Gb White (Белый)",
-            "price": 119.999,
+            "name": "Apple iPhone 13 512Gb White (Черный)",
+            "price": 119.900,
             "avialable": 54,
             "id": 15
         },
         {
             "image": "5.jpg",
             "name": "Apple iPhone 12 512Gb White (Белый)",
-            "price": 79.999,
+            "price": 79.900,
             "avialable": 0,
             "id": 16
         },
         {
             "image": "6.jpg",
             "name": "Apple iPhone 12 128Gb White (Белый)",
-            "price": 55.999,
+            "price": 55.900,
             "avialable": 0,
             "id": 17
         }, 
         {
             "image": "7.jpg",
             "name": "Apple iPhone 15 512Gb Blue (Синий)",
-            "price": 119.999,
+            "price": 119.900,
             "avialable": 4,
             "id": 18
         },
         {
             "image": "8.jpg",
             "name": "Apple iPhone 11 512Gb Blue (Синий)",
-            "price": 49.999,
+            "price": 49.900,
             "avialable": 0,
             "id": 19
         },
         {
             "image": "9.jpg",
             "name": "Apple iPhone 15 512Gb Red (Красный)",
-            "price": 99.999,
+            "price": 99.900,
             "avialable": 11,
             "id": 20
         },
         {
             "image": "10.jpg",
             "name": "Apple iPhone 15 Pro Max 512Gb Red (Красный)",
-            "price": 129.999,
+            "price": 129.900,
             "avialable": 32,
             "id": 21
         },
         {
             "image": "11.jpg",
             "name": "Apple iPhone 12 512Gb Pro Max Yellow (Желтый)",
-            "price": 999,
+            "price": 45.900,
             "avialable": 1,
             "id": 22
         },
         {
             "image": "12.jpg",
             "name": "Apple iPhone 15 Pro Max 1Tb Red (Красный)",
-            "price": 111.999,
+            "price": 111.900,
             "avialable": 19,
             "id": 23
         },
@@ -419,6 +419,178 @@
             "price": 139.999,
             "avialable": 19,
             "id": 59
+        }
+    ],
+    "ipad": [
+        {
+            "image": "ipad1.png",
+            "name": "Ipad 13 64Gb Pink (Розовый)",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 70
+        },
+        {
+            "image": "ipad2.png",
+            "name": "Apple Ipad 13 128Gb Grey (Металлик)",
+            "price": 49.900,
+            "avialable": 0,
+            "id": 71
+        },
+        {
+            "image": "ipad3.png",
+            "name": "Apple Ipad 13 64Gb Pink (Розовый)",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 72
+        },
+        {
+            "image": "ipad4.png",
+            "name": "Apple Ipad 13 128Gb Grey (Металлик)",
+            "price": 49.900,
+            "avialable": 0,
+            "id": 73
+        },
+        {
+            "image": "ipad5.png",
+            "name": "Apple Ipad 13 64Gb Pink (Розовый)",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 74
+        },
+        {
+            "image": "ipad6.png",
+            "name": "Apple Ipad 13 128Gb Grey (Металлик)",
+            "price": 49.900,
+            "avialable": 0,
+            "id": 75
+        },
+        {
+            "image": "ipad7.png",
+            "name": "Apple Ipad 13 64Gb Pink (Розовый)",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 76
+        },
+        {
+            "image": "ipad8.png",
+            "name": "Apple Ipad 13 128Gb Grey (Металлик)",
+            "price": 49.900,
+            "avialable": 0,
+            "id": 77
+        },
+        {
+            "image": "ipad9.png",
+            "name": "Apple Ipad 13 64Gb Pink (Розовый)",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 78
+        },
+        {
+            "image": "ipad10.png",
+            "name": "Apple Ipad 13 128Gb Grey (Металлик)",
+            "price": 49.900,
+            "avialable": 0,
+            "id": 79
+        },
+        {
+            "image": "ipad8.png",
+            "name": "Apple Ipad 13 512Gb Grey (Металлик)",
+            "price": 149.900,
+            "avialable": 0,
+            "id": 80
+        },
+        {
+            "image": "ipad5.png",
+            "name": "Apple Ipad Air 1Tb Space Grey (Серый)",
+            "price": 99.900,
+            "avialable": 0,
+            "id": 81
+        }
+    ],
+    "macbook": [
+        {
+            "image": "mac1.png",
+            "name": "Ноутбук MacBook Pro 16 Grey [2024] [M2, 8 ГБ, 256 ГБ]",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 82
+        },
+        {
+            "image": "mac2.jpg",
+            "name": "Ноутбук MacBook Air 14 Blue [2022] [M2, 8 ГБ, 256 ГБ]",
+            "price": 130.900,
+            "avialable": 0,
+            "id": 83
+        },
+        {
+            "image": "mac3.jpg",
+            "name": "Ноутбук MacBook Air 13 Black [2022] [M3, 16 ГБ, 256 ГБ]",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 84
+        },
+        {
+            "image": "mac4.png",
+            "name": "Ноутбук MacBook Air 15 Silver [2022] [M2, 8 ГБ, 256 ГБ]",
+            "price": 97.900,
+            "avialable": 0,
+            "id": 85
+        },
+        {
+            "image": "mac5.jpg",
+            "name": "Ноутбук MacBook Air 13 Space Grey [2021] [M2, 8 ГБ, 256 ГБ]",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 86
+        },
+        {
+            "image": "mac6.jpg",
+            "name": "Ноутбук MacBook Air 13 Gold [2022] [M2, 8 ГБ, 256 ГБ]",
+            "price": 56.900,
+            "avialable": 0,
+            "id": 87
+        },
+        {
+            "image": "mac7.png",
+            "name": "Ноутбук MacBook Pro 16 Gold [2023] [M3, 32 ГБ, 512 ГБ]",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 88
+        },
+        {
+            "image": "mac8.jpg",
+            "name": "Ноутбук MacBook Air 13 Starlight [2022] [M2, 8 ГБ, 256 ГБ]",
+            "price": 49.900,
+            "avialable": 0,
+            "id": 89
+        },
+        {
+            "image": "mac9.png",
+            "name": "Ноутбук MacBook Pro 14 Starlight [2022] [M2, 8 ГБ, 256 ГБ]",
+            "price": 29.900,
+            "avialable": 55,
+            "id": 90
+        },
+        {
+            "image": "mac10.png",
+            "name": "Ноутбук MacBook Air 13 Starlight [2022] [M2, 8 ГБ, 256 ГБ]",
+            "price": 119.900,
+            "avialable": 0,
+            "id": 91
+        },
+        {
+            "image": "mac9.png",
+            "name": "Ноутбук MacBook Pro 14 Серебристый [2021] [M1, 8 ГБ, 512 ГБ]",
+            "price": 149.900,
+            "avialable": 43,
+            "id": 92
+        },
+        {
+            "image": "mac4.png",
+            "name": "Ноутбук MacBook Air 15 Space Grey [2022] [M1, 8 ГБ, 256 ГБ]",
+            "price": 86.900,
+            "avialable": 4,
+            "id": 93
         }
     ]
 }

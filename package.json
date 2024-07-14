@@ -22,6 +22,9 @@
     "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "eslint": "^7.32.0",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
@@ -34,11 +37,9 @@
     "@vue/test-utils": "^1.1.3",
     "babel-jest": "^29.7.0",
     "chai": "^4.2.0",
-    "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-vue": "^8.0.3",
     "jsdom": "^24.0.0",
     "jsdom-global": "^3.0.2",
     "mocha": "^9.1.3",

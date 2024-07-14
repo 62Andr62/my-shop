@@ -1,39 +1,38 @@
 <template>
-  <div id="app"> 
+  <div id="app">
     <router-view>
     </router-view>
-    <V_header></V_header>
-    <V_footer></V_footer>
-    <V_cart
-        v-if="CART_CLOSE"     
+    <HeaderApp></HeaderApp>
+    <FooterApp></FooterApp>
+    <MyCart
+        v-show="CART_CLOSE"
         :cart_data="CART"
-        ></V_cart>
+        ></MyCart>
   </div>
-  
+
 </template>
 <script>
-import V_header from './components/verstka/V_header'
-import V_footer from './components/verstka/V_footer'
-import V_cart from './components/shopCart/V_cart.vue'
-import { mapGetters} from 'vuex';
-/*Изменить пагинацию
-  изменить хедер*/
+import HeaderApp from './components/verstka/HeaderApp'
+import FooterApp from './components/verstka/FooterApp'
+import MyCart from './components/shopCart/MyCart.vue'
+import { mapGetters } from 'vuex'
 
 export default {
   components: {
-    V_cart,
-    V_header,
-    V_footer
+    MyCart,
+    HeaderApp,
+    FooterApp
   },
-  data: function() {
+  data: function () {
     return {
     }
   },
   computed: {
     ...mapGetters([
       'CART',
-      'CART_CLOSE'
-    ]),
+      'CART_CLOSE',
+      'SHOW_ORDER'
+    ])
   },
   methods: {
   }

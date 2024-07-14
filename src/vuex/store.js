@@ -1,58 +1,20 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import actions from './actions/actions'
+import mutations from './mutations/mutations'
+import getters from './getters/getters'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
-let store = new Vuex.Store( {
-    state: {
-        cart: [],
-        closeCart: false
-    },
-    mutations: {
-        SET_PRODUCT: (state, product) => {
-            if(state.cart.length) {
+const store = new Vuex.Store({
+  state: {
+    cart: JSON.parse(localStorage.getItem('cart')) || [],
+    closeCart: false,
+    showOrder: false
+  },
+  mutations,
+  actions,
+  getters
+})
 
-                let isProduct = false;
-                let qty = state.cart.map(function(item) {
-                    if (item.id === product.id) {
-                        isProduct = true;
-                        item.quantity++
-                        return qty;
-                    }
-                })
-                if (!isProduct) {
-                    state.cart.push(product)
-                }
-            } else {
-                state.cart.push(product)
-            }
-        },
-        REMOVE_FROM_CART: (state, index) => {
-            state.cart.splice(index, 1)
-        },
-        CLOSE_WINDOW_CART: (state) => {
-            state.closeCart = false
-        },
-        OPEN_WINDOW_CART: (state) => {
-            state.closeCart = true
-        }
-    },
-    actions: {
-        ADD_TO_CART({commit}, product) {
-            commit('SET_PRODUCT', product)
-        },
-        DELETE_FROM_CART({commit} , index) {
-            commit('REMOVE_FROM_CART', index)
-        },
-    },
-    getters: {
-        CART(state) {
-            return state.cart;
-        },
-        CART_CLOSE(state) {
-            return state.closeCart
-        }
-    }
-});
-
-export default store;
+export default store

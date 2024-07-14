@@ -1,71 +1,10 @@
-.send {
-    border-radius: 9px;
-    color: rgba(134, 6, 246, 0.909);
-    cursor: pointer;
-    margin-left: 420px;
-    margin-top: 10px;
-  }
-.invalid {
-  border-color: red;
-  background-color: #ffcccc
+body {
+  background-color: rgb(236 235 233 / 43%);
+  max-width: 100%;
+  overflow-x: hidden;
 }
-.invalid-good {
-  background-color: green;
-}
-.label {
-display: flex;
-margin-left: 417px;
-margin-top: -35px;
-}
-.invalid-feedback {
-color: rgba(242, 10, 10, 0.824);
-margin-left: 370px;
-margin-top: 5px;
-font-size: 12px;
-}
-.qqq {
-display: block;
-margin-left: 300px;
-margin-top: 120px;
-font-size: 26px;
-  }
-.generation {
-    display: flex;
-    background-color: rgb(240, 46, 46);
-    color: aqua;
-    font-size: 32px;
-    margin-top: 200px;
-    margin-left: 60px;
-  }
-.generation:hover {
-    cursor: pointer;
-    border-radius: 10px
-  }
   .header {
     display: flex;
-  }
-  .btn-green {
-    background-color: green;
-    padding: 15px;
-  }
-  .btn-green:active {
-    background-color: hsla(149, 81%, 19%, 0.79);
-  }
-  .btn-blue {
-    background-color: #0808f5;
-    padding: 15px;
-  }
-    .btn-blue:active {
-      background-color: #4c4cf5;
-    }
-  .changeColor {
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 400px;
-  }
-  .image-sock {
-    position: relative;
-    border-radius: none;
   }
   .v-cart {
     top: 3px;
@@ -75,19 +14,22 @@ font-size: 26px;
     background-color: rgb(30, 185, 196);
     border-radius: 10px;
     z-index: 10;
-    position: fixed;
+    position: absolute;
+    cursor: pointer;
     
   }
   .product_data_name {
+    position: absolute;
+    font-size: 15px;
     text-align: center;
   }
   .addCart {
+    position: relative;
     padding: 7px 4px;
     cursor: pointer;
     color: white;
     background-color: rgb(56, 192, 194);
-    position: relative;
-    margin-top: 83px;
+    top: 10px;
     border-radius: 10px;
     &:active {
       background-color: rgb(60, 172, 174);
@@ -146,10 +88,11 @@ font-size: 26px;
   .logotaip {
     margin-left: -140px;
   }
-  .logo {
-    list-style-type:none;
-  }
   .product_data {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product_data_card {
     background-color: white;
     margin-top: 25px;
     margin-left: 25px;
@@ -160,12 +103,12 @@ font-size: 26px;
   min-height: 350px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: column; /* Размещаем элементы в колонку */
+  flex-direction: column;
   border-radius: 24px;
   transition: 0.2s;
   position: relative;
   }
-  .product_data:hover {
+  .product_data_card:hover {
     transform: scale(1.1);
     cursor: pointer;
   }
@@ -174,7 +117,7 @@ font-size: 26px;
     align-items: center;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: column; /* Размещаем элементы в колонку */
+  flex-direction: column;
   border-radius: 24px;
   transition: 0.2s;
   cursor: pointer;
@@ -218,11 +161,6 @@ font-size: 26px;
       transform: translateX(0);
     }
   }
-  body {
-    background-color: rgb(236 235 233 / 43%);
-    max-width: 100%;
-    overflow-x: hidden;
-  }
   .get_api {
     display: flex;
     flex-wrap: wrap;
@@ -231,13 +169,15 @@ font-size: 26px;
     position: absolute;
     background-color: black;
     color: white;
+    right: 0;
     width: 100%;
-    height: 80%;
+    height: 60%;
     top: 1300px;
   }
   .product_data_price {
+    right: 60px;
     position: relative;
-    top: 180px;
+    top: 140px;
   }
   .headerCart {
     border-bottom: solid 1px;
@@ -271,7 +211,7 @@ font-size: 26px;
     top: 45px;
     right: 90px;
   }
-  .tver {
+  .tver_city {
     position: relative;
     right: 70px;
   }
@@ -293,18 +233,6 @@ font-size: 26px;
   }
   .hoverEffect {
     background-color: grey;
-  }
-  .modal {
-    position: fixed;
-    z-index: 999;
-    right: 0px;
-    top: 0;
-    width: 25%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid #4c6a8a;
-    opacity: 0.6;
   }
   .placing_an_order {
     position: relative;
@@ -337,9 +265,260 @@ font-size: 26px;
     }
   }
   .empty_cart {
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 160px;
  }
+ .counter_btn {
+  display: inline-grid;
+  width: 25px;
+  justify-content: center;
+  border-radius: 5px;
+  &:hover {
+    background-color: #c8c8d0;
+  }
+ }
+ .order {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 90%;
+ }
+ .closeOrder {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+ }
+ .userData {
+  bottom: 100px;
+  top: 100px;
+  display: grid;
+  position: absolute;
+ }
+ .userInput {
+  border: none;
+  background-color: rgb(226, 223, 223);
+  height: 40px;
+  width: 350px;
+ }
+ .cartOrder {
+  top: 123px;
+  background-color: white;
+  position: relative;
+  left: 540px;
+  width: 37%;
+	border-collapse: collapse;
+ }
+ .cartOrder th {
+  font-weight: bold;
+	padding: 15px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+ }
+ .cartOrder td {
+	border: 1px solid #dddddd;
+}
+.unit_item_order {
+  border-bottom: 1px solid #dddddd;
+  padding: 7px;
+}
+.redWarning {
+  color: red;
+}
+.invalid {
+  border: 1px solid red;
+  box-shadow: 2px 2px red, -1em 0 .4em olive;
+}
+.imgCart {
+  position: relative;
+  bottom: 20px;
+}
+.product_data_avialable {
+  font-size: 12px;
+  position: relative;
+  top: 112px;
+  left: 50px;
+}
+.product_data_almost_end {
+  font-size: 12px;
+  position: relative;
+  top: 112px;
+  left: 50px;
+}
+.product_data_end {
+  font-size: 12px;
+  position: relative;
+  top: 112px;
+  left: 50px;
+}
+.incrDecr {
+  width: 74px;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: rgb(234, 232, 229);
+}
+.product_data_image {
+  width: 180px;
+  position: relative;
+  top: 60px;
+}
+.total_price_order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
+.btn_order_comfirm {
+  position: relative;
+  top: 40px;
+  width: 330px;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(56, 192, 194);
+  &:active {
+    background-color: rgb(60, 172, 174);
+  }
+}
+.selected {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 85px;
+  left: 550px;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  background-color: #c8c8d0;
+}
+.sortItem {
+  position: relative;
+  top: 90px;
+}
+.renderText {
+  position: relative;
+  top: 200px;
+  left: 700px;
+  font-size: 20px;
+}
+.logoHomePage {
+  position: relative;
+  top: 100px;
+  left: 580px;
+}
+.startTextPage b {
+  position: relative;
+  font-size: 40px;
+  top: 180px;
+  left: 350px;
+  color: rgb(71, 71, 236);
+}
+.startTextPage p {
+  position: relative;
+  font-size: 30px;
+  top: 180px;
+  left: 210px;
+}
+.homePage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.qwed {
+  position: relative;
+  top: 100px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .logotaip {
+    position: relative;
+    margin-left: 76px;
+    top: 6px;
+  }
+  .headers {
+    position: absolute;
+    left: -8px;
+    margin-bottom: -20px;
+    padding: 20px;
+}
+.src_iphone {
+  position: relative;
+  top: 20px;
+  left: -270px;
+  display: flex;
+  margin-left: 85px;
+  text-decoration: none;
+  color: black;
+}
+
+.page {
+  position: relative;
+  right: 324px;
+}
+.footer {
+  position: relative;
+  top: 193px;
+  width: 549px;
+  right: 8px;
+}
+.footer h2 {
+position: relative;
+top: 62px;
+right: 84px;
+}
+.selected {
+  position: relative;
+  left: 210px;
+}
+.adress {
+display: block;
+position: relative;
+bottom: 58px;
+left: 93px;
+}
+.v-cart {
+  position: absolute;
+  left: 460px;
+}
+.startTextPage  {
+  display: inline;
+  & b {
+    font-size: 30px;
+    display: flex;
+    top: 140px;
+    left: 100px;
+  }
+  & p {
+    display: flex;
+    font-size: 25px;
+    left: 110px;
+    top: 150px;
+  }
+}
+.logoHomePage {
+  position: relative;
+  left: 70%;
+}
+.cart_window {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 1200px) {
+
+}
